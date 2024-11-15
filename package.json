@@ -1,0 +1,45 @@
+{
+	"name": "vite-plugin-html-django",
+	"private": false,
+	"version": "0.0.1",
+	"type": "module",
+	"main": "dist/vite-plugin-html-django.js",
+	"keywords": [
+		"vite-plugin",
+		"html",
+		"django"
+	],
+	"files": [
+		"dist"
+	],
+	"description": "A vite plugin that generates html for django templates",
+	"exports": {
+		".": {
+			"types": "./dist/main.d.ts",
+			"import": "./dist/vite-plugin-html-django.js",
+			"require": "./dist/vite-plugin-html-django.umd.cjs"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"bugs": {
+		"url": ""
+	},
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc --p ./tsconfig-build.json && vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@types/node": "^22.9.0",
+		"jest": "^29.7.0",
+		"typescript": "^5.6.3",
+		"vite": "^5.4.10",
+		"vite-plugin-dts": "^4.3.0",
+		"vite-plugin-inspect": "^0.8.7"
+	},
+	"dependencies": {}
+}
