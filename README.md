@@ -51,3 +51,5 @@ export default defineConfig({
 <script type="module" src="{% static 'js/my-app/index.olF0dh3Q.js' %}"></script>
 ```
 
+## License
+MIT License © 2024 [codpoe](https://github.com/madchester)
