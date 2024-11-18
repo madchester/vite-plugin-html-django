@@ -52,4 +52,4 @@ export default defineConfig({
 ```
 
 ## License
-MIT License © 2024 [codpoe](https://github.com/madchester)
+MIT License © 2024 [madchester](https://github.com/madchester)
